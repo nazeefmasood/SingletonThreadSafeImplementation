@@ -1,6 +1,6 @@
 CODE AND WORKING EXPLAINATION:
 -----------------------------------------------------------------------------------------------------------------------------------
-In the below basically we are trying to achieve the thread safe Implementation the Thread Safe Implementation
+/*In the below basically we are trying to achieve the thread safe Implementation the Thread Safe Implementation
 which basically means when we talk about thread we mean that we want this program to perform more than one task 
 at the same time so when we are executing the multiple threads at the same time and if they all are sharing the same 
 object or data structure then it can lead to the inconsistencies meaning if you run the same method in the multiple threads
@@ -9,7 +9,7 @@ it will give you the different results and we want our results to be consistent.
 so what it will do is that when we run the code the java compiler will acquire a lock on the method and will know that which object
 this method belongs to, which helps in ensuring that only one thread can execute that method. This helps in preventing the racing 
 conditions and inconsistencies. if there are multiple threads who wants to execute the methods they have to wait then when their turn 
-they java complier will run the method but will not allow multiple threads to execute the same method at the same time. 
+they java complier will run the method but will not allow multiple threads to execute the same method at the same time. */
 -----------------------------------------------------------------------------------------------------------------------------------
 
  
